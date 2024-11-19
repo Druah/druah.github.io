@@ -1,0 +1,47 @@
+body{
+	background: #000000;
+}
+.menu ul{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	padding: 0;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	display: flex;
+}
+.menu ul li{
+	list-style: none;
+	margin: 15px;
+}
+.menu ul li .icons{
+	font-size: 50px;
+	line-height: 97px;
+	transition: 0.25s;
+	color: #000000;	
+}
+.menu ul li .icons:hover{
+	color: #FFFFFF;
+	background-color: #0F4C81;
+	transition: 0.25s;
+}
+.menu ul li a{
+	position: relative;
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 10%;
+	background-color: #FFFFFF;
+	text-align: center;
+	transition: 0.25s;
+}
+img{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	width: 250px;
+	height: 250px;
+	border-radius: 10%;
+}
